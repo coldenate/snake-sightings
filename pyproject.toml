@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rs-visualize"
+version = "0.1.0"
+description = ""
+authors = ["Nathan Solis <66754842+coldenate@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "rs_visualize"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+catppuccin = "^1.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
